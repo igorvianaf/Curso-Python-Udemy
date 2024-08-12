@@ -1,0 +1,1 @@
+quantidade_de_lados = int(input('Quantos lados tem o seu poligono regular? '))
