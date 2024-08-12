@@ -1,3 +1,5 @@
+#introdução a função lambda
+#personalizar como ordenar lista 
 lista = [
     {'nome': 'Luiz', 'sobrenome': 'miranda'},
     {'nome': 'Maria', 'sobrenome': 'Oliveira'},
@@ -11,6 +13,7 @@ def exibir(lista):
     print()
 
 
+# key serve para organizar a lista de acordo com uma chave e a chave é passada pela função de uma linha lamba
 l1 = sorted(lista, key=lambda item: item['nome'])
 l2 = sorted(lista, key=lambda item: item['sobrenome'])
 

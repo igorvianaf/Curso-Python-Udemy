@@ -9,8 +9,16 @@ def cria_multiplicador(multiplicador):
         return numero * multiplicador
     return multiplica
 
+duplica = executa(
+    lambda m: lambda n: n*m, 2
+)
+print(duplica(4))
+
+
 print(
     executa(
-        lambda x, y: x + y
-    )
+        lambda x, y: x + y, 2, 3
+        ),
+        executa(soma, 2, 4),
+        soma(2, 4)
 )
