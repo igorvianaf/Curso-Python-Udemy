@@ -18,4 +18,7 @@ lista = [
 
 new_dc2 = {chave: valor for chave, valor in lista}
 
+s1 = {2 * i for i in range(10)}
+
 print(new_dc2)
+print(s1)
