@@ -1,3 +1,4 @@
+#generator
 import sys
 
 
