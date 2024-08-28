@@ -1,5 +1,5 @@
 nome = 'igor'
-metodo = 'uppere'
+metodo = 'upper'
 
 if hasattr(nome, metodo):
     print('Existe upper aqui')
