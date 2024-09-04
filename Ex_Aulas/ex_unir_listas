@@ -1,0 +1,19 @@
+def menor(lista1, lista2):
+    if len(lista1) <= len(lista2):
+        menor = len(lista1)
+        return menor
+    else:
+        menor = len(lista2)
+        return menor
+
+
+def ziper(cidades, estados):
+    lista = []
+    for x in range(menor(cidades, estados)):
+        lista.append((cidades[x], estados[x]))
+    return lista
+
+
+cidades = ['Salvador', 'Ubatuba', 'Belo Horizonte', 'Rio de Janeiro', 'Recife']
+estados = ['BA', 'SP', 'MG', 'RJ']
+print(ziper(cidades, estados))
