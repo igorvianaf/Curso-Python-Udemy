@@ -1,3 +1,6 @@
+import os
+
+
 def mostrar_lista(lista):
     for item in lista:
             print(item)
@@ -9,6 +12,8 @@ def opcoes(entrada_usuario):
         ...
     elif entrada_usuario == 'refazer':
         ...
+    elif entrada_usuario == 'clear':
+        os.system('cls')
     elif entrada_usuario == 'sair':
         return False
     else:
