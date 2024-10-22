@@ -1,12 +1,15 @@
 class Caneta:
     def __init__(self, cor):
-        self.cor = cor
+        self._cor = cor
 
     def get_cor(self):
-        print('Também podemos executar ações dentro do getter')
-        return self.cor
+        print('retornando valor da cor' )
+        return self._cor
 
 caneta = Caneta('Azul')
+caneta = Caneta('Laranja')
+caneta = Caneta('Verde')
+
 
 print(caneta.get_cor())
 print(caneta.get_cor())
