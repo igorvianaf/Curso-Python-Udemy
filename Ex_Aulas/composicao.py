@@ -9,6 +9,7 @@ class Clientes:
         self.endereco.append((Endereco(rua, numero)))
     
     def listar_enderecos(self):
+        # Método para listar o endereço, com nome de rua e número.
         for endereco in self.endereco:
             print(endereco.rua, endereco.numero)
 
